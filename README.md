@@ -20,7 +20,7 @@ This script requires the following dependencies:
 5. The generated barcode will be saved as `barcode.png`.
 
 ## Example
-![Barcode](barcode_Apple.png)
+![Barcode](barcodes//barcode_Apple.png)
 
 ## About the Author
 This repository is maintained by [sondercs](https://github.com/sondercs).
