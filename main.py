@@ -9,9 +9,9 @@ def create_barcode(name, number):
         my_code = EAN13(number, writer=ImageWriter())
         my_code.save('barcodes/barcode_{}'.format(name))
         
-        print("Código de barras criado para {}!".format(name))
+        print("The barcode of {}, was created!".format(name))
     else:
-        print("É necessário que o produto tenha 12 dígitos!")
+        print("The product id needs to have 12 characters!")
 
 def read_csv(filename):
     
