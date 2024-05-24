@@ -1,26 +1,26 @@
-# Barcode Generator
+# Gerador de código de barras
 
-## Overview
-This repository contains a Python script for generating barcodes.
+## Visão Geral
+Este repositório contém um script em Python para gerar códigos de barras.
 
-## Dependencies
-This script requires the following dependencies:
-- `csv` (should be available in Python's standard library)
+## Dependências
+Este script requer as seguintes dependências:
+- `csv` (deve estar disponível na biblioteca padrão do Python)
 - [python-barcode](https://pypi.org/project/python-barcode/)
-  - Install using pip:
+  - Instale usando pip:
     ```
     pip install python-barcode
     ```
 
-## Usage
-1. Make sure you have Python installed on your system.
-2. Install the required dependencies.
-3. Run the Python script `barcode_generator.py`.
-4. Provide the necessary input when prompted.
-5. The generated barcode will be saved as `barcode.png`.
+## Uso
+1. Certifique-se de ter o Python instalado em seu sistema.
+2. Instale as dependências necessárias.
+3. Execute o script Python `barcode_generator.py`.
+4. Forneça a entrada necessária quando solicitado.
+5. O código de barras gerado será salvo como `barcode.png`.
 
-## Example
-![Barcode](barcodes//barcode_Apple.png)
+## Exemplo
+![Código de Barras](barcodes//barcode_Apple.png)
 
-## About the Author
-This repository is maintained by [sondercs](https://github.com/sondercs).
+## Sobre o Autor
+Este repositório é mantido por [sondercs](https://github.com/sondercs).
